@@ -126,8 +126,8 @@ body{
     margin-top: 5%;
 }
 
-.download img{
-    width: 48%;
+.download a img{
+    width: 140px;
 }
 
 @media (max-width: 540px){
@@ -157,6 +157,30 @@ body{
         height: 3rem;
         width: 70%;
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 528px){
+    .download a img{
+        width: 120px;
+    }
+}
+
+@media (max-width: 452px){
+    .download a img{
+        width: 110px;
+    }
+}
+
+@media (max-width: 411px){
+    .download a img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 378px){
+    .download a img{
+        width: 90px;
     }
 }
 
