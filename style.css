@@ -1,0 +1,170 @@
+/* GLOBAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* BODY */
+
+body{
+    font-family: 'Roboto';
+    background-size:auto;
+
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size:  cover
+}
+
+#center{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forms{
+    height: 32rem;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.822);
+
+    border-radius: 10px;
+}
+
+.imgLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1.5rem;
+}
+
+.imgLogo h1{
+    font-size: .8rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* title */
+
+.title{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -0.1rem;
+
+    margin-top: 1rem;
+}
+
+.description{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #b1b1b1;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description div{
+    width: 80%;
+}
+
+.btnCall{
+    margin-top: 6%;
+}
+
+.btnCall button{
+    height: 4rem;
+    width: 70%;
+    background-image: linear-gradient(45deg, #43b3dd , #80d2d4, #cff1f0);
+
+    margin-left: 15%;
+
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #0a233e;
+    text-align: center;
+
+    border: none;
+    border-radius: .2rem;
+
+    letter-spacing: -0.1rem;
+}
+
+.warn{
+    height: 4rem;
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 15%;
+    border-radius: 0.5rem;
+    border-top: 2px solid #db1421;
+    border-bottom: 2px solid #db1421;
+}
+
+.mainWarn{
+    margin-top: 5%;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subWarn{
+    font-size: .8rem;
+    font-weight: 600;
+    color: #b1b1b1;
+    text-align: center;
+}
+
+.download{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.download img{
+    width: 48%;
+}
+
+@media (max-width: 540px){
+    #forms{ 
+        width: 80%;
+    }
+}
+
+@media (max-width: 402px){
+    #forms{ 
+        width: 80%;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .description{
+        font-size: .7rem;
+    }
+    .mainWarn{
+        margin-top: 8%;
+        font-size: .7rem;
+    }
+    .subWarn{
+        font-size: .6rem;
+    }
+    .btnCall button{    
+        height: 3rem;
+        width: 70%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 667px){
+    #center{
+       margin-top: 18vh;
+    }
+    #forms{
+        height: 25rem;
+    }
+}
